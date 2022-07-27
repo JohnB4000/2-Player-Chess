@@ -109,7 +109,7 @@ class Pawn(Piece):
 class Rook(Piece):
     def __init__(self, source):
         super().__init__(source)
-    
+
     def checkValidMove(self, oldCoords, newCoords, board, whiteMove):
         rank = oldCoords[0] - 1
         pieceFound = False
