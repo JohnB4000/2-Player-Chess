@@ -1,4 +1,3 @@
-from shutil import move
 import Piece, pygame
 
 class Board:
