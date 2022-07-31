@@ -127,3 +127,5 @@ class Board:
         if self.pickedPiece.name == 'k' and self.pickedPiece.colour == ('w' if self.whiteMove else 'b'):
                 return self.pickedPiece.checkIfInCheck(newCoords, self.board, self.whiteMove)
         return False
+
+# Can castle through check
