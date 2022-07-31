@@ -7,6 +7,7 @@ import Board
 pygame.init()
 pygame.mixer.quit()
 
+
 # Sets the width and height of the Pygame window and then creates it
 width = 800
 height = 800
